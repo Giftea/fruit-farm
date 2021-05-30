@@ -1,0 +1,32 @@
+header{
+    background-image: url('./img/blue.jpg');
+    background-size: cover ;
+    background-position: center;
+    min-height: 600px;
+    opacity: 0.9;
+    
+}
+
+nav .brand-logo{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+nav ul a{
+    font-size: 25px;
+}
+.tabs .indicator{
+    background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: transparent;
+}
+
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+@media screen and (max-width: 670px){
+    header {min-height: 500px;}
+}
